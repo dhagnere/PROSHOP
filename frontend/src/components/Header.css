@@ -1,5 +1,5 @@
 .fa-laptop-house {
-    color: rgb(158, 158, 158);
+    color: rgb(238, 70, 70);
     font-size: 25px;
     height: 50px;
     width: 50px;
@@ -7,7 +7,6 @@
     border-color: black;
     background-color: rgb(253, 252, 252);
     padding: 10px;
-    border: rgb(2, 23, 29) 1px solid; 
     border-radius: 60px; 
     box-shadow: 0 2px 2px -2px rgba(18, 18, 19, 0.952);
 }
@@ -17,3 +16,10 @@
     border: rgb(247, 6, 6);
   
 }
+
+.shop-name{
+    color: rgb(163, 163, 131); 
+    font-size: 10px; 
+    text-align: start;
+}
+

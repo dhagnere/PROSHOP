@@ -8,6 +8,7 @@ const Header = () => {
       <Navbar className = "navbar-color" variant="dark" expand="lg">
         <Container>
           <Navbar.Brand href="#home"><i className="fas fa-laptop-house"></i></Navbar.Brand>
+            <span className="shop-name"> Nom de votre commerce</span>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
