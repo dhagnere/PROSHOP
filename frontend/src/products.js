@@ -4,7 +4,7 @@ const products = [
     name: 'Airpods Wireless Bluetooth Headphones',
     image: '/images/airpods.jpg',
     description:
-      'Bluetooth technology lets you connect it with compatible devices wirelessly High-quality AAC audio offers immersive listening experience Built-in microphone allows you to take calls while working',
+      "La technologie Bluetooth vous permet de le connecter sans fil à des appareils compatibles Un son AAC de haute qualité offre une expérience d'écoute immersive Le microphone intégré vous permet de prendre des appels tout en travaillant",
     brand: 'Apple',
     category: 'Electronics',
     price: 89.99,
@@ -17,7 +17,7 @@ const products = [
     name: 'iPhone 11 Pro 256GB Memory',
     image: '/images/phone.jpg',
     description:
-      'Introducing the iPhone 11 Pro. A transformative triple-camera system that adds tons of capability without complexity. An unprecedented leap in battery life',
+      "Présentation de l'iPhone 11 Pro. Un système à trois caméras transformateur qui ajoute des tonnes de capacités sans complexité. Un bond sans précédent dans l'autonomie de la batterie",
     brand: 'Apple',
     category: 'Electronics',
     price: 599.99,
@@ -30,7 +30,7 @@ const products = [
     name: 'Cannon EOS 80D DSLR Camera',
     image: '/images/camera.jpg',
     description:
-      'Characterized by versatile imaging specs, the Canon EOS 80D further clarifies itself using a pair of robust focusing systems and an intuitive design',
+      "Caractérisé par des spécifications d'imagerie polyvalentes, le Canon EOS 80D se clarifie davantage en utilisant une paire de systèmes de mise au point robustes et une conception intuitive",
     brand: 'Cannon',
     category: 'Electronics',
     price: 929.99,
@@ -43,7 +43,7 @@ const products = [
     name: 'Sony Playstation 4 Pro White Version',
     image: '/images/playstation.jpg',
     description:
-      'The ultimate home entertainment center starts with PlayStation. Whether you are into gaming, HD movies, television, music',
+      'Le centre de divertissement à domicile ultime commence avec PlayStation. Que vous aimiez les jeux, les films HD, la télévision, la musique',
     brand: 'Sony',
     category: 'Electronics',
     price: 399.99,
@@ -56,7 +56,7 @@ const products = [
     name: 'Logitech G-Series Gaming Mouse',
     image: '/images/mouse.jpg',
     description:
-      'Get a better handle on your games with this Logitech LIGHTSYNC gaming mouse. The six programmable buttons allow customization for a smooth playing experience',
+      'Maîtrisez mieux vos jeux avec cette souris de jeu Logitech LIGHTSYNC. Les six boutons programmables permettent une personnalisation pour une expérience de jeu fluide',
     brand: 'Logitech',
     category: 'Electronics',
     price: 49.99,
@@ -69,7 +69,7 @@ const products = [
     name: 'Amazon Echo Dot 3rd Generation',
     image: '/images/alexa.jpg',
     description:
-      'Meet Echo Dot - Our most popular smart speaker with a fabric design. It is our most compact smart speaker that fits perfectly into small space',
+      "Rencontrez Echo Dot - Notre haut-parleur intelligent le plus populaire avec un design en tissu. C'est notre haut-parleur intelligent le plus compact qui s'intègre parfaitement dans un petit espace ",
     brand: 'Amazon',
     category: 'Electronics',
     price: 29.99,
