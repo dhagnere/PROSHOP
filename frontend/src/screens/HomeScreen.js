@@ -14,6 +14,7 @@ const HomeScreen = () => {
     }
     fetchProducts()
   }, [])
+
   return (
     <>
       <h1 className='text-title'>Nos derniers produits</h1>
