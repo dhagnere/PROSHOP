@@ -42,6 +42,7 @@ const ProductScreen = ({ match }) => {
         <Col md={3}>
           <Card>
             <ListGroup variant='flush'>
+              
               <ListGroup.Item>
                 <Row>
                   <Col>Prix :</Col>
@@ -50,6 +51,22 @@ const ProductScreen = ({ match }) => {
                   </Col>
                 </Row>
               </ListGroup.Item>
+
+              <ListGroup.Item>
+                <Row>
+                  <Col>Status :</Col>
+                  <Col>
+                    <strong>{product.countInStock > 0 ? 'En stock' : 'Plus en Stock'}</strong>
+                  </Col>
+                </Row>
+              </ListGroup.Item>
+
+              <ListGroup.Item>
+                <Button className='btn-block' type='button' disabled = {product.countInStock === 0}>
+                  Ajouter au panier
+                </Button>
+              </ListGroup.Item>
+
             </ListGroup>
           </Card>
         </Col>
