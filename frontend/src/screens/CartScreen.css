@@ -1,0 +1,21 @@
+.btn-retour {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+  background-color: #413939;
+  text-decoration: none;
+}
+
+.btn-retour:hover {
+  color: white;
+  background-color: #7c4d4d;
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: right;
+}
